@@ -15,10 +15,10 @@ export default function Home() {
         <div className="hero-content">
           <span className="hero-tag"><FaLeaf /> Floricultura Premium</span>
           <h1>Flora Casa Verde</h1>
-          <p>Transforme momentos especiais com arranjos florais feitos com carinho e dedicação. Entrega rápida em toda São Paulo.</p>
+          <p>Transforme momentos especiais com arranjos florais feitos com carinho e dedicação. Entrega rápida em Pouso Alegre e região.</p>
           <div className="hero-btns">
             <Link to="/catalogo" className="btn btn-secondary">Ver Catálogo <FaArrowRight /></Link>
-            <a href="https://wa.me/5511999999999" className="btn btn-outline" target="_blank" rel="noopener noreferrer">Fale Conosco</a>
+            <a href="https://wa.me/553534213165" className="btn btn-outline" target="_blank" rel="noopener noreferrer">Fale Conosco</a>
           </div>
           <div className="hero-badges">
             <span><FaTruck /> Entrega Rápida</span>
@@ -55,7 +55,7 @@ export default function Home() {
                 <div className="about-feature glass-card">
                   <FaTruck className="feature-icon" />
                   <h4>Entrega Rápida</h4>
-                  <p>Mesmo dia para SP</p>
+                  <p>Mesmo dia para Pouso Alegre</p>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function Home() {
           <p>Encomende agora e surpreenda com flores lindas e frescas entregues no mesmo dia.</p>
           <div className="cta-btns">
             <Link to="/catalogo" className="btn btn-secondary">Comprar Agora</Link>
-            <a href="https://wa.me/5511999999999" className="btn btn-outline" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://wa.me/553534213165" className="btn btn-outline" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </div>
         </div>
       </section>

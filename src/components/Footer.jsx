@@ -9,11 +9,11 @@ export default function Footer() {
           <div className="footer-brand">
             <FaLeaf /> Flora Casa Verde
           </div>
-          <p>Transformamos momentos especiais com a beleza e o perfume das flores. Desde 2010 levando verde e vida para o seu lar.</p>
+          <p>Transformamos momentos especiais com a beleza e o perfume das flores. Desde 2023 levando verde e vida para o seu lar.</p>
           <div className="footer-social">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebookF /></a>
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><FaWhatsapp /></a>
+            <a href="https://wa.me/553534213165" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><FaWhatsapp /></a>
           </div>
         </div>
 
@@ -36,8 +36,8 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Contato</h4>
-          <p><FaMapMarkerAlt /> Rua das Flores, 123 - Centro<br />São Paulo - SP</p>
-          <p><FaPhone /> (11) 99999-9999</p>
+          <p><FaMapMarkerAlt /> Av. Duque de Caxias, 265 - Centro<br />Pouso Alegre - MG, 37550-000</p>
+          <p><FaPhone /> (35) 3421-3165</p>
           <p><FaEnvelope /> contato@floracasaverde.com</p>
         </div>
       </div>

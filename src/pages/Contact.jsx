@@ -35,7 +35,7 @@ export default function Contact() {
               <div className="contact-card glass-card">
                 <FaPhone className="contact-card-icon" />
                 <h4>Telefone</h4>
-                <p>(11) 99999-9999</p>
+                <p>(35) 3421-3165</p>
               </div>
               <div className="contact-card glass-card">
                 <FaEnvelope className="contact-card-icon" />
@@ -45,16 +45,16 @@ export default function Contact() {
               <div className="contact-card glass-card">
                 <FaMapMarkerAlt className="contact-card-icon" />
                 <h4>Endereço</h4>
-                <p>Rua das Flores, 123 - Centro<br />São Paulo - SP, 01001-000</p>
+                <p>Av. Duque de Caxias, 265 - Centro<br />Pouso Alegre - MG, 37550-000</p>
               </div>
               <div className="contact-card glass-card">
                 <FaClock className="contact-card-icon" />
                 <h4>Horário</h4>
-                <p>Seg–Sex: 8h–19h<br />Sáb: 8h–17h | Dom: 9h–13h</p>
+                <p>Seg–Sex: 8h–18h<br />Sáb: 8h–16h | Dom: Fechado</p>
               </div>
             </div>
 
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ marginTop: '1.5rem' }}>
+            <a href="https://wa.me/553534213165" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ marginTop: '1.5rem' }}>
               <FaWhatsapp /> Falar pelo WhatsApp
             </a>
           </div>
