@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaTruck, FaCreditCard, FaStar, FaArrowRight, FaLeaf, FaSeedling, FaHeart } from 'react-icons/fa';
+import { FaTruck, FaCreditCard, FaStar, FaArrowRight, FaSeedling, FaHeart } from 'react-icons/fa';
 import ProductCard from '../components/ProductCard';
 import { useApp } from '../context/AppContext';
 import { IMAGES, TESTIMONIALS } from '../data/products';
@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero */}
       <section className="hero" style={{ backgroundImage: `linear-gradient(135deg, rgba(46,125,50,0.82) 0%, rgba(129,199,132,0.65) 50%, rgba(216,27,96,0.45) 100%), url(${IMAGES.hero})` }}>
         <div className="hero-content">
-          <span className="hero-tag"><FaLeaf /> Floricultura Premium</span>
+          <span className="hero-tag"><img src="/iconflor.jpg" alt="" className="hero-tag-logo" /> Floricultura Premium</span>
           <h1>Flora Casa Verde</h1>
           <p>Transforme momentos especiais com arranjos florais feitos com carinho e dedicação. Entrega rápida em Pouso Alegre e região.</p>
           <div className="hero-btns">

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaBars, FaTimes, FaShoppingCart, FaLeaf } from 'react-icons/fa';
+import { FaBars, FaTimes, FaShoppingCart } from 'react-icons/fa';
 import { useApp } from '../context/AppContext';
 
 export default function Header() {
@@ -28,7 +28,7 @@ export default function Header() {
     <header className={`header${scrolled ? ' header-scrolled' : ''}`}>
       <div className="container header-content">
         <Link to="/" className="brand">
-          <FaLeaf className="brand-icon" />
+          <img src="/iconflor.jpg" alt="Flora Casa Verde" className="brand-logo" />
           <span>Flora Casa Verde</span>
         </Link>
 

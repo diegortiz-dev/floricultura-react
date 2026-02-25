@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaLeaf, FaInstagram, FaFacebookF, FaWhatsapp, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaWhatsapp, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-col">
           <div className="footer-brand">
-            <FaLeaf /> Flora Casa Verde
+            <img src="/iconflor.jpg" alt="Flora Casa Verde" className="footer-logo" /> Flora Casa Verde
           </div>
           <p>Transformamos momentos especiais com a beleza e o perfume das flores. Desde 2023 levando verde e vida para o seu lar.</p>
           <div className="footer-social">
